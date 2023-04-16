@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: black;
 }
 
 .logo {
@@ -14,8 +14,24 @@ body {
 }
 
 img {
-    height: 400px;
-    width: 400px;
+    background-color: red;
+    background-image: red;
+    height: 150px;
+    width: 150px;
+    filter: invert(40%);
     background: none;
-    filter: sepia(300%) hue-rotate(90deg) saturate(50%);
+}
+
+h1 {
+    top: 50%;
+    margin: 1em;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+p {
+    text-decoration: none;
+    top: 60%;
+    margin: 1em;
+    font-size: 2em;
 }
