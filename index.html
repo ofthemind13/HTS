@@ -2,19 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Historic Tattoo Shop</title>
+    <title>Historic Tattoos</title>
 </head>
 
 <body>
+
     <header>
-        <a href="index.html" src="hot-stuff.png" class="logo" alt="sick logo">
-            <img src="hot-stuff.png"> </header>
-    <h1>Historic Tattoo Shop</h1>
-    <p>Ogdens Premier Tattoo Artists</p>
+        <a href="index.html"><img class="logo" src="hot-stuff.png" alt="little devil"></a>
+        <div class="nav-links">
+            <div class="navbar">
+                <div id="myLinks" class="myLinks">
+
+                    <li><a href="#merch">merch</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#about">about</a></li>
+                </div>
+                <li><a href="javascript:void(0);" class="hamburger" id="ham" onclick="myFunction()">&#9776;</a></li>
+
+            </div>
+        </div>
+
+    </header>
+    <div class="home_bg">
+        <div class="action-call">
+            <p>We specialize in traditional tattooing.<br> Book a consultation today!</p>
+
+
+        </div>
+        <a href="#contact">
+            <button type="button">Book Tattoo</button>
+        </a>
+    </div>
+
+
+    <div class="about_bg" id="about">
+        <h1>Tattoos</h1>
+        <p>The phenomenon of tattooing was once widespread. In 'The Descent of Man' Charles Darwin wrote that there was no country in the world that did not practice tattooing or some other form of permanent body decoration</p>
+    </div>
+
+    </div>
+    <div class="gallery_bg" id="gallery">
+        <h1>Gallery</h1>
+        <img src="girl-4123270_1920.jpg" class="gallery_pic1">
+        <img src="people-2576110_1920.jpg" class="gallery_pic2">
+        <img src="woman-1867485_1920.jpg" class="gallery_pic3">
+        <img src="tat.jpg" class="gallery_pic4">
+
+
+    </div>
+    <div class="contact_bg" id="contact">
+        <section>
+            <h2 class="con_1">Contact Info</h2>
+            <div class="contact">
+                <form action="https://formsubmit.co/4ca756cda0d3371c0c1a8407a29ae3ed" method="POST" />
+                <input type="text" name="name" placeholder="Your Name:" class="name" required><br>
+                <input type="email" name="email" placeholder="Email Address" class="email" required><br>
+                <input type="tel" name="tel" placeholder="Telephone Number" class="tel" required>
+
+                <button onclick="thanks.html" type="submit" class="button_con">Send</button>
+                </form>
+                <img src="">
+            </div>
+        </section>
+    </div>
+
+
+    <div class="merch_bg">
+        <h1 class="merch" id="merch">Merch</h1>
+
+        <div class="columns">
+            <ul class="tshirt" id="shirt">
+                <li class="header">T-Shirts</li>
+                <li class="price">$23.38/each</li>
+                <li class="image1"> </li>
+                <li class="button1"><a href="#merch">buy</a></li>
+            </ul>
+        </div>
+
+
+        <div class="columns">
+            <ul class="tshirt">
+                <li class="header">T-Shirts</li>
+                <li class="price">$23.38/each</li>
+                <li class="image2"> </li>
+                <li class="button2"><a href="#merch">buy</a></li>
+            </ul>
+        </div>
+
+
+        <div class="columns">
+            <ul class="tshirt">
+                <li class="header">T-Shirts</li>
+                <li class="price">$23.38/each</li>
+                <li class="image3"> </li>
+                <li class="button3"><a href="#merch">buy</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
 </body>
 
 </html>
