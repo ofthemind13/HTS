@@ -14,16 +14,14 @@
         padding: 0%;
     }
     body {
-        background-color: black;
         margin: 0%;
         padding: 0%;
     }
     .logo {
-        left: 2em;
+        left: -1em;
         position: absolute;
         height: 120px;
         width: 120px;
-        filter: invert(100%);
     }
     header.sticky {
         padding-bottom: .5rem;
@@ -56,7 +54,7 @@
     li a {
         top: 1em;
         padding-right: 1em;
-        color: white;
+        color: black;
         float: right;
         font-family: 'Rubik Distressed', cursive;
         display: block;
@@ -104,17 +102,33 @@
         font-family: 'Sedgwick Ave Display', cursive;
         padding: 1rem;
         font-size: 2em;
+        border: 10px solid black;
     }
     .action-call {
-        color: white;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 35%;
+        left: 20em;
+        color: black;
         text-align: center;
         position: absolute;
+        height: 25em;
         width: 20%;
         line-break: 20px;
-        margin: 5em;
         background: none;
-        top: 15%;
         z-index: 2;
+    }
+    .hero_img {
+        position: relative;
+        flex-grow: 1;
+        left: 20em;
+        border: 10px solid black;
+    }
+    .hs-color {
+        position: relative;
+        border: 10px solid black;
+        flex-grow: 1;
     }
     button {
         top: 70%;
@@ -164,7 +178,7 @@
         font-size: 2em;
         font-family: 'Sedgwick Ave Display', cursive;
         position: relative;
-        color: white;
+        color: black;
         z-index: 2;
         text-align: left;
     }
